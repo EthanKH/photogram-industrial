@@ -5,4 +5,34 @@ Rails.application.routes.draw do
   root "photos#index"
   # Defines the root path route ("/")
   # root "articles#index"
+
+  # https://github.com/EthanKH/photogram-industrial/pulls
+
+  # Part 1
+  # https://learn.firstdraft.com/lessons/197-photogram-industrial-part-1
+  # https://share.descript.com/view/iJTnIgxaV0n
+  
+  # Part 2
+  # https://learn.firstdraft.com/lessons/198-photogram-industrial-part-2
+  # https://share.descript.com/view/P3PGeVSVtMW
+  
+  # 
+  # 
+  # 
+
+  # 
+  #
+  # 
+  
+  # 
+  # 
+  # 
+
+  # 
+  # 
+  # 
+  
+  # 
+  # 
+  # 
 end
