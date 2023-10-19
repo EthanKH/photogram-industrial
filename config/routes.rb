@@ -9,6 +9,8 @@ Rails.application.routes.draw do
   # Defines the root path route ("/")
   # root "articles#index"
 
+  # Left off on Association accessors and Direct association
+
   # https://github.com/EthanKH/photogram-industrial/pulls
 
   # Part 1
