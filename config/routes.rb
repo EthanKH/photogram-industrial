@@ -21,7 +21,7 @@ Rails.application.routes.draw do
   # https://learn.firstdraft.com/lessons/198-photogram-industrial-part-2
   # https://share.descript.com/view/P3PGeVSVtMW
   
-  # 
+  #
   # 
   # 
 
