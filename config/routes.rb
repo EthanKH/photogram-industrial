@@ -9,7 +9,7 @@ Rails.application.routes.draw do
   # Defines the root path route ("/")
   # root "articles#index"
 
-  # Left off on Association accessors and Direct association
+  # Left off on Validations (Part 2)
 
   # https://github.com/EthanKH/photogram-industrial/pulls
 
@@ -20,6 +20,7 @@ Rails.application.routes.draw do
   # Part 2
   # https://learn.firstdraft.com/lessons/198-photogram-industrial-part-2
   # https://share.descript.com/view/P3PGeVSVtMW
+  # https://blog.arkency.com/how-to-add-a-default-value-to-an-existing-column-in-a-rails-migration/
   
   #
   # 
