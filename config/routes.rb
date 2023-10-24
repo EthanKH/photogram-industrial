@@ -9,7 +9,7 @@ Rails.application.routes.draw do
   # Defines the root path route ("/")
   # root "articles#index"
 
-  # Left off on Validations (Part 2)
+  # Left off on Sample Data
 
   # https://github.com/EthanKH/photogram-industrial/pulls
 
