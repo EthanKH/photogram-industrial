@@ -21,8 +21,6 @@ task({ :sample_data => :environment }) do
     # p u.errors.full_messages
   end
 
-  p "There are now #{User.count} users."
-
   users = User.all
 
   users.each do |first_user|
@@ -42,7 +40,6 @@ task({ :sample_data => :environment }) do
       end
     end
   end
-  p "There are now #{FollowRequest.count} follow requests."
   users.each do |user|
     rand(15).times do
       photo = user.own_photos.create(
@@ -51,7 +48,7 @@ task({ :sample_data => :environment }) do
       )
 
       user.followers.each do |follower|
-        if rand < 0.5
+        if rand < 0.5 && !photo.fans.include?(follower)
           photo.fans << follower
         end
 
