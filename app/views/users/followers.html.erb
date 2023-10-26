@@ -23,9 +23,10 @@
     </ul>
   </div>
 </div>
+<h2>Followers</h2>
 
-<h2>Liked photos</h2>
-
-<% @user.liked_photos.each do |photo| %>
-  <%= render "photos/photo", photo: photo %>
+<% @user.followers.each do |follower| %>
+  <ul class="list-group">
+    <a href=<%=user_path(follower.username)%> class="list-group-item list-group-item-action"><%=follower.username%></a>
+  </ul>
 <% end %>
